@@ -12,7 +12,7 @@ body {
 
 /* Header & Footer */
 header{
-    background-color: #1a67a3;
+    background-color: black;
     color: white;
     text-align: center;
     padding: 15px;
@@ -21,7 +21,7 @@ header{
 
 
 footer{
-    background-color: #1a67a3;
+    background-color: black;
     color: white;
     text-align: center;
     padding: 15px;
@@ -70,7 +70,7 @@ main{
 
 /* Form Elements */
 h2 {
-    color: #1a67a3;
+    color: black;
 }
 
 form {
@@ -94,7 +94,7 @@ form input {
 
 /* Submit Button */
 button {
-    background-color: #1a67a3;
+    background-color: black;
     color: white;
     padding: 10px;
     border: none;
@@ -114,7 +114,7 @@ p {
 }
 
 a {
-    color: #1a67a3;
+    color: black;
     text-decoration: none;
 }
 

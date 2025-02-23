@@ -7,7 +7,7 @@ body {
 }
 
 header, footer {
-    background-color: #1a67a3; /* Layout color */
+    background-color: black; /* Layout color */
     color: white;
     padding: 15px;
     text-align: center;
@@ -33,7 +33,7 @@ footer {
 }
 
 footer a {
-    color: white;
+    color: black;
     text-decoration: underline;
 }
 
@@ -50,7 +50,7 @@ footer a {
 
 .about-container h2 {
     text-align: center;
-    color: #1a67a3;
+    color: black;
     font-size: 32px;
 }
 
@@ -72,14 +72,14 @@ footer a {
 }
 
 .about-container h3 {
-    color: #1a67a3;
+    color: black;
     font-size: 24px;
     margin-top: 30px;
 }
 
 .about-container h4 {
     font-size: 18px;
-    color: #1a67a3;
+    color: black;
     margin-top: 20px;
 }
 
@@ -94,7 +94,7 @@ footer a {
 }
 
 .about-container a {
-    color: #1a67a3;
+    color: black;
     text-decoration: none;
 }
 

@@ -7,7 +7,7 @@ body {
 }
 
 header, footer {
-    background-color: #1a67a3; /* Layout color */
+    background-color: black; /* Layout color */
     color: white;
     padding: 15px;
     text-align: center;
@@ -50,7 +50,7 @@ footer a {
 
 .login-container h2 {
     text-align: center;
-    color: #1a67a3;
+    color: black;
 }
 
 .form-group {
@@ -72,14 +72,14 @@ footer a {
 }
 
 .form-group input:focus {
-    border-color: #1a67a3;
+    border-color: black;
     outline: none;
 }
 
 button {
     width: 100%;
     padding: 12px;
-    background-color: #1a67a3;
+    background-color: black;
     color: white;
     border: none;
     border-radius: 4px;
@@ -98,7 +98,7 @@ button:hover {
 }
 
 .footer a {
-    color: #1a67a3;
+    color: black;
     text-decoration: none;
 }
 

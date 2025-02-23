@@ -53,5 +53,5 @@ def login(methods):
 
 
 def about_page():
-        data = {"name":"Prakhar Mishra","organisation":"Prakhar Enterprises"}
+        data = {"name":"Enter Your Name","organisation":"Enter Your Organisation Name"}
         return render_template('about.html',data=data)

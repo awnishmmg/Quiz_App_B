@@ -2,7 +2,106 @@
 
 {% block title %}Home - Quiz Mock Application{% endblock %}
 
+{% block styles %}
+<style>
+    /* General Styles */
+body {
+  font-family: 'Arial', sans-serif;
+}
+
+.hero {
+  background-color: #007bff;
+  color: white;
+}
+
+.hero h1 {
+  font-size: 3rem;
+  font-weight: 700;
+}
+
+.card-title {
+  font-size: 1.25rem;
+  font-weight: 600;
+}
+
+.card-text {
+  font-size: 1rem;
+}
+
+.btn {
+  padding: 0.75rem 2rem;
+  border-radius: 25px;
+}
+
+footer {
+  background-color: #343a40;
+}
+
+footer p {
+  margin: 0;
+}
+</style>
+{% endblock %}
+
 {% block content %}
-    <h2>Welcome to the Quiz Mock Application Version 2.0</h2>
-    <p>Practise Your Subjects,Chapter and Quizes at ease.</p>
+
+  <!-- Hero Section start-->
+  <section class="hero bg-primary text-white text-center py-5">
+    <div class="container">
+      <h1 class="display-4">Welcome to the Ultimate Quiz Challenge!</h1>
+      <p class="lead">Test your knowledge and challenge yourself with exciting quizzes.</p>
+      <a href="#features" 
+         class="btn btn-light btn-lg"
+         style="color:white">
+         Learn More
+      </a>
+    </div>
+  </section>
+  <!-- Hero Section End-->
+
+  <!-- Features Section -->
+  <section id="features" class="py-5 bg-light">
+    <div class="container text-center">
+      <h2 class="display-4 mb-4">Features of the Quiz App</h2>
+      <div class="row">
+        <div class="col-md-4">
+          <div class="card mb-4 shadow-sm">
+            <img src="https://images.unsplash.com/photo-1522202176988-66273c2fd55f?q=80&w=2071&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" 
+            class="card-img-top" alt="Feature 1" style="height: 800px;width: 1000px;">
+            <div class="card-body">
+              <h5 class="card-title">Variety of Topics</h5>
+              <p class="card-text">Choose from a wide range of categories like Science, History, General Knowledge, and more!</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="card mb-4 shadow-sm">
+            <img src="https://media.istockphoto.com/id/1344939844/photo/hand-holding-drawing-virtual-lightbulb-with-brain-on-bokeh-background-for-creative-and-smart.jpg?s=1024x1024&w=is&k=20&c=fZi9_l3-fcMPHTEDVinuavkZnG9zh_bkX8lWjKVJsf4=" class="card-img-top" alt="Feature 2">
+            <div class="card-body">
+              <h5 class="card-title">Timed Challenges</h5>
+              <p class="card-text">Race against the clock to answer questions. Can you finish before time runs out?</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="card mb-4 shadow-sm">
+            <img src="https://media.istockphoto.com/id/1829735035/vector/challenge-icon-set-solid-icon-collection-vector-illustration.jpg?s=1024x1024&w=is&k=20&c=XDRIfoCH-W9E74QnRou_XZ_1QNNogFAxLzjV2LBEZrY=" class="card-img-top" alt="Feature 3">
+            <div class="card-body">
+              <h5 class="card-title">Leaderboard</h5>
+              <p class="card-text">Track your progress and compare your score with friends on the leaderboard!</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Call to Action Section -->
+  <section id="cta" class="py-5 bg-primary text-white text-center">
+    <div class="container">
+      <h2 class="display-4">Ready to Test Your Knowledge?</h2>
+      <p class="lead">Join now and challenge yourself to see how much you know!</p>
+      <a href="#quiz" class="btn btn-light btn-lg">Start the Quiz</a>
+    </div>
+  </section>
 {% endblock %}

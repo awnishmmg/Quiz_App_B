@@ -5,6 +5,8 @@ def create_app():
     app = Flask(__name__)
     app.secret_key  = 'Your_Secret_key'
 
+    
+
     #Import the Globals Utility.
     app.jinja_env.globals['model_helper'] = {}
     app.jinja_env.globals['model_helper']['get_questions_count'] = model_count_no_of_question_in_quiz
